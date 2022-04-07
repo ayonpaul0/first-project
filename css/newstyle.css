@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+
+header{
+  position: relative;
+  background-color: #CAF0F8;
+  padding-top: 100px;
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 200px;
+  top: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 280px
+}
+
+h1{
+  font-size: 100px;
+  color: #357C3C;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  color: #357C3C;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* second section */
+
+.my-pic{
+  height: 233px;
+  width: 193px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.intro{
+  width: 50%;
+  margin: 10px auto;
+  line-height: 2;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+  color: #357C3C;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+
+}
+
+.web-programming{
+  width: 26%;
+  float: left;
+  margin-right: 80px;
+  text-align: right;
+}
+
+.calculator{
+  width: 26%;
+  float: right;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.climbing{
+  width: 26%;
+  float: left;
+  margin-right: 80px;
+  text-align: right;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.intro-2{
+  text-align: left;
+  line-height: 3;
+
+}
+
+.intro-3{
+  width: 50%;
+  margin: 35px auto;
+}
+
+.buttonClass {
+  font-size:20px;
+  font-family:Arial;
+  width:167px;
+  height:52px;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 0px #3d768a;
+  background:linear-gradient(#599bb3, #408c99);
+  padding: 11px 26px;
+  text-decoration: none;
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#408c99, #599bb3);
+}
+
+footer{
+  background-color: #9FB4FF;
+  padding: 50px;
+
+}
+
+.linked{
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.linked:hover{
+  color: #ffffff;
+}
+
+.intro-end{
+  font-size: 10px;
+}
